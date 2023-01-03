@@ -12,6 +12,7 @@ const j = 4
 // i = 3
 // This is not valid if you are assigning any value to varible then you should assigned it in main
 // Code on line 5 works beacuse you are assigning the value at the same time of decleration
+// When you declare the varible outside the main function it is called package level decleration
 
 func main() {
 	//i = 2
