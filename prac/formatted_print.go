@@ -24,4 +24,11 @@ func main() {
 	)
 	fmt.Println(k)
 	fmt.Println(m)
+
+	const (
+		n = 40
+		p = 50
+	)
+	fmt.Println(n)
+	fmt.Println(p)
 }
