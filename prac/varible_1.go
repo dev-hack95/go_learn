@@ -24,4 +24,7 @@ func main() {
 	//fmt.Println(j)
 
 	// When you declare a value var i int like that there is no error generated beacuse it has assined a value 0
+	n := 10
+	n = 20
+	fmt.Println(n)
 }
