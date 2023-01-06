@@ -36,7 +36,7 @@ func main() {
 
 	student_3 := student{
 		name:    "Paresh",
-		devtype: "All in one",
+		devtype: "Full stack at anything",
 		skills: []string{
 			"Inko saab kuch atta he",
 		},
