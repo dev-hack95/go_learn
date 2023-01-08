@@ -48,6 +48,10 @@ func main() {
 			"Python",
 			"GO",
 			"API",
+			"ML",
+			"MLOps",
+			"DVC",
+			"MLFlow",
 			"Devops Related Stuff",
 		},
 	}
