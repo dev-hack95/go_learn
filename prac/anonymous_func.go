@@ -15,5 +15,6 @@ func main() {
 	test_2 := func() {
 		fmt.Println("Hello anonymous func")
 	}
+
 	test_2()
 }
