@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-func test(n int) int {
+func fact(n int) int {
 	if n == 0 {
 		return 1
 	}
-	return n * test(n-1)
+	return n * fact(n-1)
 }
 
 func main() {
-	fmt.Print(test(7))
+	fmt.Print(fact(7))
 }
