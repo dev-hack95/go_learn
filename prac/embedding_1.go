@@ -17,5 +17,15 @@ type container struct {
 }
 
 func main() {
+	s1 := container{base: base{
+		num: 1,
+	},
+		str: "Hello World"}
 
+	fmt.Println(s1)
+	fmt.Printf("s1={num: %v, str: %v}\n", s1.num, s1.str)
+	fmt.Println(s1.base)
+	fmt.Println(s1.num)
+	fmt.Println(s1.base.num)
+	fmt.Println(s1.str)
 }
