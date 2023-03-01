@@ -1,6 +1,9 @@
 package main
 
-import "net/http"
+import (
+	"log"
+	"net/http"
+)
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
@@ -10,6 +13,6 @@ func main() {
 	err := http.ListenAndServe(":8080", nil)
 
 	if err != nil {
-		panic(err.Error())
+		log.Fatal(err)
 	}
 }
